@@ -14,6 +14,7 @@ let myWs = {
         }
         )
     },
+
 }
 self.addEventListener("message",(e)=>{
     postMessage(myWs[`${e.data.action}`]());

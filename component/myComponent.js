@@ -10,8 +10,8 @@ export default{
                 
                     `
                     <h2>${val[0]}</h2>
-                    <img src="${val[1].image.full}" alt="" srcset="">
-                    <h2>${val[1].image.full}</h2>
+                    <img src="https://ddragon.leagueoflegends.com/cdn/img/champion/splash/${val[1].id}_0.jpg" alt="" srcset="">
+                    
                     `, "text/html"
 
                 )
