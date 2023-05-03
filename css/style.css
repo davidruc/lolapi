@@ -1,0 +1,12 @@
+
+.imgCard{
+    width: 70px;
+    height: 70px;
+    align-self: center;
+}
+.interior{
+    width: 80px;
+}
+.interior p{
+    font-size: .8rem;
+}
