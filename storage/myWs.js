@@ -11,8 +11,7 @@ let myWs = {
             }
         } lol().then(data =>{
             self.postMessage({info: data})
-        }
-        )
+        })
     },
 
 }
