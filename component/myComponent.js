@@ -1,8 +1,6 @@
 
 export default{
-
     printData(){
-        
         const ws = new Worker("./storage/myWs.js", {type:"module"});
         ws.postMessage({action:"getData"});
         ws.addEventListener("message",(e)=>{
@@ -40,13 +38,10 @@ export default{
                 val.addEventListener("click", (e)=>{
                     console.log(val.id);
                     let plantilla = `
-                    
                     <div class=" py-0 px-0 p-2 d-flex flex-column justify-content-center">
-                        
                         <img class="champSplash" src="http://ddragon.leagueoflegends.com/cdn/img/champion/splash/${val.id}_0.jpg" alt="" srcset="">
                         <p class="text-white m-0 text-center ">$</p>
-                        </div>
-                    
+                    </div>
                     `;
                     document.querySelector(".masinformacion").innerHTML = plantilla
                 })

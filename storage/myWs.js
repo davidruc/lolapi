@@ -2,7 +2,7 @@ let myWs = {
     getData(){
         async function lol() {
             try{
-                const url = " https://ddragon.leagueoflegends.com/cdn/13.8.1/data/en_US/champion.json";
+                const url = "https://ddragon.leagueoflegends.com/cdn/13.8.1/data/en_US/champion.json";
                 const response = await fetch(url)
                 const data = await response.json();
                 return data;

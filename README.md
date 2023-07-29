@@ -12,5 +12,6 @@ Para este proyecto se implementaron diversas tecnologías de Javascript para per
 ## Link
 
 El proyecto se encuentra desplegado en el siguiente link: *https://davidruc.github.io/Api2/*
+* Hay algunos problemas con las imágenes del proyecto, quedó inconcluso y requiere más trabajo.
 
 #### Autor: David Rueda. (Davidruc)
